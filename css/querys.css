@@ -1,0 +1,36 @@
+ /*=======================================================================  header  ========================================================================================*/
+ 
+ @media(max-width:710px) {
+     header>.menu {
+         flex-direction: column;
+     }
+     .maior-plataforma>.box {
+         flex-direction: column;
+     }
+     .saude>.box {
+         flex-direction: column;
+     }
+     .atuacao-grupoa>.box {
+         flex-direction: column;
+     }
+     header>.menu>.navigacao ul {
+         font-size: 80%;
+         padding-bottom: 10px;
+     }
+ }
+ 
+ @media(max-width:550px) {
+     header>.menu>.navigacao ul {
+         font-size: 50%;
+     }
+ }
+ 
+ @media(max-width:430px) {
+     header>.menu>.navigacao ul {
+         font-size: 40%;
+     }
+     header>.menu>.navigacao li:last-child {
+         margin-left: 10px;
+     }
+ }
+ /*=========================================================================== Sessão 01 ================================================================================================*/
